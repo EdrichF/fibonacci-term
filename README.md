@@ -38,9 +38,8 @@ This repository was developed and released by Edrich Fourie as part of interview
 The problem that was given is a algorithmic problem where the Fibonacci sequence is defined by the recurrence relation. The candidate needs write a program to find the index of the first term in the Fibonacci sequence to contain N digits, where N is passed in on the command line.
 
 
-Example:
-
-The 7th term, F7, is the first term to contain two digits.
+Example:\
+The 7th term, F7, is the first term to contain two digits.\
 The 12th term, F12, is the first term to contain three digits.
 
 
