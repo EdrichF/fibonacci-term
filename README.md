@@ -39,9 +39,7 @@ The problem that was given is a algorithmic problem where the Fibonacci sequence
 
 
 Example:
-
 The 7th term, F7, is the first term to contain two digits.
-
 The 12th term, F12, is the first term to contain three digits.
 
 
@@ -69,7 +67,11 @@ Your solution should adhere to the following:
 ## 2. The Program
 
 In this program, there are three functions. The first function is the *check_input* function. It takes the argument provided as input and if the input is a positive interger it excutes 
-the *fibonacci_sequence_digit_index* function otherwise it will display an error message. The next function is the *fibonacci_sequence_digit_index* function. It takes the number of digits as input and returns the index of the first term in the fibonacci sequence that contains that number of digits. It uses the numpy library to store and update the values in the sequence and to perform all mathematical operations. The last function is the *count_digits* function. It takes a number as input and return the number of digits in the number. The reason for this function is to avoid casting of varibles. Overall the program takes the value of n from the command line and prints the result.
+the *fibonacci_sequence_digit_index* function otherwise it will display an error message. 
+
+The next function is the *fibonacci_sequence_digit_index* function. It takes the number of digits as input and returns the index of the first term in the fibonacci sequence that contains that number of digits. It uses the numpy library to store and update the values in the sequence and to perform all mathematical operations. 
+
+The last function is the *count_digits* function. It takes a number as input and return the number of digits in the number. The reason for this function is to avoid casting of varibles. Overall the program takes the value of n from the command line and prints the result.
 
 
 <!--
