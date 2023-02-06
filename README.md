@@ -18,7 +18,7 @@ This is the README for the Corigine Technical Assignment 2023 repository.
 * [About the Project](#about-the-project)
 * [Project Requiremnets](#project-requiremnets)
 * [The Program](#the-program)
-* [Results](#results)
+* [Results](#Results)
 
 
 <!--
@@ -39,7 +39,9 @@ The problem that was given is a algorithmic problem where the Fibonacci sequence
 
 
 Example:
+
 The 7th term, F7, is the first term to contain two digits.
+
 The 12th term, F12, is the first term to contain three digits.
 
 
