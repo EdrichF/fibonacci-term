@@ -18,7 +18,7 @@ This is the README for the Corigine Technical Assignment 2023 repository.
 * [About the Project](#about-the-project)
 * [Project Requiremnets](#project-requiremnets)
 * [The Program](#the-program)
-* [Results](#Results)
+* [Results](#results)
 
 
 <!--
@@ -41,7 +41,6 @@ The problem that was given is a algorithmic problem where the Fibonacci sequence
 Example:
 
 The 7th term, F7, is the first term to contain two digits.
-
 The 12th term, F12, is the first term to contain three digits.
 
 
@@ -51,7 +50,7 @@ The 12th term, F12, is the first term to contain three digits.
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 -------------------------------------------------------------------------------
-## 1. Project Requiremnets
+## Project Requiremnets
 Your solution should adhere to the following:
 
 * Use Python3.
@@ -66,7 +65,7 @@ Your solution should adhere to the following:
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 -------------------------------------------------------------------------------
-## 2. The Program
+## The Program
 
 In this program, there are three functions. The first function is the *check_input* function. It takes the argument provided as input and if the input is a positive interger it excutes 
 the *fibonacci_sequence_digit_index* function otherwise it will display an error message. 
@@ -78,11 +77,11 @@ The last function is the *count_digits* function. It takes a number as input and
 
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ 4. Results                                                                   ║
+║ 3. Results                                                                   ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 -------------------------------------------------------------------------------
-## 4. Results
+## Results
 
 | Dataset       | Precision     | Recall      | Neg. Rate   | Accuracy   |
 | ------------- | ------------- | --------    | --------    | --------   |
