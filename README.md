@@ -33,9 +33,17 @@ This is the README for the Corigine Technical Assignment 2023 repository.
 **Date**: 2022-05-04
 
 This repository was developed and released by Edrich Fourie as part of interview process at Corigine where a solution-driven challenge to evaluate technical problem-solving capabilities that needs to be solve.
+
+
 The problem that was given is a algorithmic problem where the Fibonacci sequence is defined by the recurrence relation. The candidate needs write a program to find the index of the first term in the Fibonacci sequence to contain N digits, where N is passed in on the command line.
+
+
 Example:
+
+
 The 7th term, F7, is the first term to contain two digits.
+
+
 The 12th term, F12, is the first term to contain three digits.
 
 
