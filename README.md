@@ -40,9 +40,7 @@ The problem that was given is a algorithmic problem where the Fibonacci sequence
 
 Example:
 
-
 The 7th term, F7, is the first term to contain two digits.
-
 
 The 12th term, F12, is the first term to contain three digits.
 
@@ -55,11 +53,12 @@ The 12th term, F12, is the first term to contain three digits.
 -------------------------------------------------------------------------------
 ## 1. Project Requiremnets
 Your solution should adhere to the following:
-• Use Python3.
-• Use numpy for all math operations.
-• If possible, avoid casting variables.
-• Follow good programming practices.
-• Be packaged and executable as a Docker container.
+
+* Use Python3.
+* Use numpy for all math operations.
+* If possible, avoid casting variables.
+* Follow good programming practices.
+* Be packaged and executable as a Docker container.
 
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
