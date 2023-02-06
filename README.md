@@ -4,25 +4,8 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 This is the README for the Corigine Technical Assignment 2023 repository. 
-This README contains a recipe for the set-up and implementation of a Speechbrain
--->
 
-<!-------------------------- GIT PROJECT LOGO ------------------------------>
-<br />
-<p align="center">
-  <a href="git clone https://uyspieter9@bitbucket.org/must_research/whalecalls.git">
-    <img src="images/must_saigen.png" alt="Logo" width="80" height="80">
-  </a>
-  <h1 align="center">Whale Call Detection</h1>
-  <p align="center">
-    Recipe for Whale Call Detection set-up and implementation. 
-    <br />
-    Developed for MUST Research team.
-    <br />
-    <br />
-  </p>
-</p>
-<!---------------------------------------------------------------------------->
+-->
 
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
@@ -33,17 +16,10 @@ This README contains a recipe for the set-up and implementation of a Speechbrain
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [Getting Started](#getting-started)
-    * [Prerequisites](#prerequisites)
-    * [Installation](#installation)
-* [Whale Call Detection](#Whale Call Detection)
-    * [Datasets](#Datasets)
-    * [Training](#Training)
-    * [Inferencing](#Inferencing)
-* [Hyperparameter Optimisation with Orion](#Hyperparameter Optimisation with Orion)
-* [Results](#Results)
-* [License](#license)
-* [References](#References)
+* [Project Requiremnets](#project-requiremnets)
+* [The Program](#the-program)
+* [Results](#results)
+
 
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
