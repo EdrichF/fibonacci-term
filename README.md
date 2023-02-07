@@ -127,7 +127,7 @@ In this program, there are three functions. The first function is the *check_inp
 
 The next function is the *fibonacci_sequence_digit_index* function. It takes the number of digits as input and returns the index of the first term in the Fibonacci sequence that contains that number of digits. It uses the numpy library to store and update the sequence values and perform all mathematical operations. 
 
-The last function is the *count_digits* function. It takes a number as input and returns the number of digits in the number. The reason for this function is to avoid the casting of variables. Overall the program takes the value of n from the command line and prints the result.
+The last function is the *count_digits* function. It takes a number as input and returns the amount of digits in the given number. The reason for this function is to avoid the casting of variables. Overall the program takes the value of n from the command line and prints the result.
 
 
 <!--
