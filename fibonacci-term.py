@@ -4,7 +4,7 @@ import sys
 
 '''Function that checks if the user input is a positive interger.
 It takes the argument provided as input and if the input is a positive interger it excutes 
-the fibonacci_sequence_digit_index function otherwise it will display an error message.'''
+the fibonacci_sequence_digit_index function otherwise it will display error messages.'''
 def check_input(n):
     if n.isdigit():
         fibonacci_sequence_digit_index(int(n))
