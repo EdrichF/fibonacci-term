@@ -142,25 +142,22 @@ The last function is the *count_digits* function. It takes a number as input and
 Terminal Output of different cases.
 
 ```consol
-(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term 2
+fibonacci-term$ docker run --rm fibonacci-term 2
 In the Fibonacci sequence the first term to contain 2 digits is at index: 7
-(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term 3
+fibonacci-term$ docker run --rm fibonacci-term 3
 In the Fibonacci sequence the first term to contain 3 digits is at index: 12
-(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term 10
+fibonacci-term$ docker run --rm fibonacci-term 10
 In the Fibonacci sequence the first term to contain 10 digits is at index: 45
-(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term -1
+fibonacci-term$ docker run --rm fibonacci-term -1
 Input is incorrect. Enter a Postive Interger.
-(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term 1.1
+fibonacci-term$ docker run --rm fibonacci-term 1.1
 Input is incorrect. Enter a Postive Interger.
-(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term k
+fibonacci-term$ docker run --rm fibonacci-term k
 Input is incorrect. Enter a Postive Interger.
 
 ```
 
-<p align="center">
-  <img src="images/per_epoch_val_acc_graph.png" width="300" title="hover text">
-  <img src="images/per_epoch_info_graph.png" width="300" alt="accessibility text">
-</p>
+
 
 
 
