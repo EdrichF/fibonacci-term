@@ -17,6 +17,7 @@ This is the README for the Corigine Technical Assignment 2023 repository.
 
 * [About the Project](#about-the-project)
 * [Project Requiremnets](#project-requiremnets)
+* [Setup Program](#setup-program)
 * [The Program](#the-program)
 * [Results](#results)
 
@@ -60,7 +61,21 @@ Your solution should adhere to the following:
 
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ 2. The Program                                                               ║
+║ 2. Setup Program                                                             ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+-->
+-------------------------------------------------------------------------------
+## Setup Program
+
+Run the program by typing in the terminal the following:
+
+`docker run --rm fibonacciterm n`
+
+where *n* is the number of digits.
+
+<!--
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ 3. The Program                                                               ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 -------------------------------------------------------------------------------
@@ -76,7 +91,7 @@ The last function is the *count_digits* function. It takes a number as input and
 
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║ 3. Results                                                                   ║
+║ 4. Results                                                                   ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 -------------------------------------------------------------------------------
