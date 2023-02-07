@@ -33,10 +33,10 @@ This is the README for the Corigine Technical Assignment 2023 repository.
 **Version**: 0.1
 **Date**: 2022-05-04
 
-This repository was developed and released by Edrich Fourie as part of interview process at Corigine where a solution-driven challenge to evaluate technical problem-solving capabilities that needs to be solve.
+This repository was developed and released by Edrich Fourie as part of the interview process at Corigine, where a solution-driven challenge is to evaluate technical problem-solving capabilities that need to be solved.
 
 
-The problem that was given is a algorithmic problem where the Fibonacci sequence is defined by the recurrence relation. The candidate needs write a program to find the index of the first term in the Fibonacci sequence to contain N digits, where N is passed in on the command line.
+The problem is algorithmic, where the recurrence relation defines the Fibonacci sequence. The candidate needs to write a program to find the index of the first term in the Fibonacci sequence to contain N digits, where N is passed in on the command line.
 
 
 Example:\
@@ -50,7 +50,7 @@ The 12th term, F12, is the first term to contain three digits.
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 -------------------------------------------------------------------------------
-## Project Requiremnets
+## Project Requirements
 Your solution should adhere to the following:
 
 * Use Python3.
@@ -67,29 +67,29 @@ Your solution should adhere to the following:
 -------------------------------------------------------------------------------
 ## Setup Program
 
-1. Make sure you have Docker installed. You can check if Docker is installed by running:
+1. Make sure you have Docker installed. You can check if Docker is installed by running the following:
 
 ```consol
 $ docker --version
 $ Docker version 23.0.0, build e92dd87
 ```
 
-If it does not show the Docker version it might not be installed. Install Docker by following these steps in the video:
+It is only installed if it shows the Docker version. Install Docker by following these steps in the video:
 
 [Install Docker](https://www.youtube.com/watch?v=aMKUuaga85A&t=48s&ab_channel=ProgrammingKnowledge)
 
-2. Make sure Python3 is installed. You can check if Python3 is installed by running:
+2. Make sure Python3 is installed. You can check if Python3 is installed by runningthe following:
 
 ```consol
 $ python --version
 $ Python 3.8.5
 ```
 
-It is important that the Python version is 3. If it does not show the Python version it might not be installed. Install Python by following these steps in the video:
+The Python version must be 3. It is only installed if it shows the Python version. Install Python by following these steps in the video:
 
 [Install Python](https://www.youtube.com/watch?v=7H-DcdSmV0U&ab_channel=KamrulsKode)
 
-4. Once everything is installed and working. Build an Docker container for the project by:
+4. Once everything is installed and working. Build a Docker container for the project by:
 
 Option 1:
 
@@ -123,12 +123,11 @@ where *n* is the number of digits.
 -------------------------------------------------------------------------------
 ## The Program
 
-In this program, there are three functions. The first function is the *check_input* function. It takes the argument provided as input and if the input is a positive interger it excutes 
-the *fibonacci_sequence_digit_index* function otherwise it will display an error message. 
+In this program, there are three functions. The first function is the *check_input* function. It takes the argument provided as input, and if the input is a positive integer, it executes the *fibonacci_sequence_digit_index* function; otherwise, it will display an error message. 
 
-The next function is the *fibonacci_sequence_digit_index* function. It takes the number of digits as input and returns the index of the first term in the fibonacci sequence that contains that number of digits. It uses the numpy library to store and update the values in the sequence and to perform all mathematical operations. 
+The next function is the *fibonacci_sequence_digit_index* function. It takes the number of digits as input and returns the index of the first term in the Fibonacci sequence that contains that number of digits. It uses the numpy library to store and update the sequence values and perform all mathematical operations. 
 
-The last function is the *count_digits* function. It takes a number as input and return the number of digits in the number. The reason for this function is to avoid casting of varibles. Overall the program takes the value of n from the command line and prints the result.
+The last function is the *count_digits* function. It takes a number as input and returns the number of digits in the number. The reason for this function is to avoid the casting of variables. Overall the program takes the value of n from the command line and prints the result.
 
 
 <!--
