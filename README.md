@@ -93,19 +93,19 @@ It is important that the Python version is 3. If it does not show the Python ver
 
 Option 1:
 
-Cloning the git repository:
-`$ git clone https://github.com/EdrichF/fibonacci-term.git`
-Change directory
-`$ cd fibonacci-term/`
-Build docker image:
+Cloning the git repository:\
+`$ git clone https://github.com/EdrichF/fibonacci-term.git`\
+Change directory\
+`$ cd fibonacci-term/`\
+Build docker image:\
 `$ docker build --tag fibonacci-term .`
 
-Option 2:
-Extract fibonacci.tar.gz
-`$ tar -xvzf ./fibonacci.tar.gz`
-Change directory
-`$ cd fibonacci-term/`
-Build docker image:
+Option 2:\
+Extract fibonacci.tar.gz\
+`$ tar -xvzf ./fibonacci.tar.gz`\
+Change directory\
+`$ cd fibonacci-term/`\
+Build docker image:\
 `$ docker build --tag fibonacci-term .`
 
 
