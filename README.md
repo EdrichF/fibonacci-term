@@ -109,7 +109,7 @@ Build docker image:\
 `$ docker build --tag fibonacci-term .`
 
 
-5. Run the program by typing the following in the terminal:
+5. Run the program by typing the following into the terminal:
 
 `docker run --rm fibonacci-term n`
 
