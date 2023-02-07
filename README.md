@@ -16,7 +16,7 @@ This is the README for the Corigine Technical Assignment 2023 repository.
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-* [Project Requiremnets](#project-requiremnets)
+* [Project Requirements](#project-requirements)
 * [Setup Program](#setup-program)
 * [The Program](#the-program)
 * [Results](#results)
