@@ -78,7 +78,7 @@ It is only installed if it shows the Docker version. Install Docker by following
 
 [Install Docker](https://www.youtube.com/watch?v=aMKUuaga85A&t=48s&ab_channel=ProgrammingKnowledge)
 
-2. Make sure Python3 is installed. You can check if Python3 is installed by runningthe following:
+2. Make sure Python3 is installed. You can check if Python3 is installed by running the following:
 
 ```consol
 $ python --version
@@ -109,7 +109,7 @@ Build docker image:\
 `$ docker build --tag fibonacci-term .`
 
 
-5. Run the program by typing in the terminal the following:
+5. Run the program by typing the following in the terminal:
 
 `docker run --rm fibonacci-term n`
 
