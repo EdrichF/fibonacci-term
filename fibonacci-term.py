@@ -17,7 +17,7 @@ def check_input(n):
 
 
 '''Function that counts the number of digits in a number. 
-It takes a number as input and return the number of digits in the number.'''
+It takes a number as input and return the amount of digits in the number.'''
 def count_digits(number):
     count = 0
     if number == 0:
