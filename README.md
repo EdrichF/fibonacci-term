@@ -95,7 +95,7 @@ Option 1:
 
 Cloning the git repository:\
 `$ git clone https://github.com/EdrichF/fibonacci-term.git`\
-Change directory\
+Change directory:\
 `$ cd fibonacci-term/`\
 Build docker image:\
 `$ docker build --tag fibonacci-term .`
@@ -103,7 +103,7 @@ Build docker image:\
 Option 2:\
 Extract fibonacci.tar.gz\
 `$ tar -xvzf ./fibonacci.tar.gz`\
-Change directory\
+Change directory:\
 `$ cd fibonacci-term/`\
 Build docker image:\
 `$ docker build --tag fibonacci-term .`
@@ -139,9 +139,23 @@ The last function is the *count_digits* function. It takes a number as input and
 -------------------------------------------------------------------------------
 ## Results
 
-| Dataset       | Precision     | Recall      | Neg. Rate   | Accuracy   |
-| ------------- | ------------- | --------    | --------    | --------   |
-| small_3_nbg   | 0.991477      | 0.966759    | 0.992846    | 0.980779   |
+Terminal Output of different cases.
+
+```consol
+(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term 2
+In the Fibonacci sequence the first term to contain 2 digits is at index: 7
+(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term 3
+In the Fibonacci sequence the first term to contain 3 digits is at index: 12
+(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term 10
+In the Fibonacci sequence the first term to contain 10 digits is at index: 45
+(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term -1
+Input is incorrect. Enter a Postive Interger.
+(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term 1.1
+Input is incorrect. Enter a Postive Interger.
+(base) edrich@edrich-Z370-AORUS-Gaming-7:~/repos/fibonacci-term-test/fibonacci-term$ docker run --rm fibonacci-term k
+Input is incorrect. Enter a Postive Interger.
+
+```
 
 <p align="center">
   <img src="images/per_epoch_val_acc_graph.png" width="300" title="hover text">
