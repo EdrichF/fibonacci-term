@@ -67,9 +67,51 @@ Your solution should adhere to the following:
 -------------------------------------------------------------------------------
 ## Setup Program
 
-Run the program by typing in the terminal the following:
+1. Make sure you have Docker installed. You can check if Docker is installed by running:
 
-`docker run --rm fibonacciterm n`
+```consol
+$ docker --version
+$ Docker version 23.0.0, build e92dd87
+```
+
+If it does not show the Docker version it might not be installed. Install Docker by following these steps in the video:
+
+[Install Docker](https://www.youtube.com/watch?v=aMKUuaga85A&t=48s&ab_channel=ProgrammingKnowledge)
+
+2. Make sure Python3 is installed. You can check if Python3 is installed by running:
+
+```consol
+$ python --version
+$ Python 3.8.5
+```
+
+It is important that the Python version is 3. If it does not show the Python version it might not be installed. Install Python by following these steps in the video:
+
+[Install Python](https://www.youtube.com/watch?v=7H-DcdSmV0U&ab_channel=KamrulsKode)
+
+4. Once everything is installed and working. Build an Docker container for the project by:
+
+Option 1:
+
+Cloning the git repository:
+`$ git clone https://github.com/EdrichF/fibonacci-term.git`
+Change directory
+`$ cd fibonacci-term/`
+Build docker image:
+`$ docker build --tag fibonacci-term .`
+
+Option 2:
+Extract fibonacci.tar.gz
+`$ tar -xvzf ./fibonacci.tar.gz`
+Change directory
+`$ cd fibonacci-term/`
+Build docker image:
+`$ docker build --tag fibonacci-term .`
+
+
+5. Run the program by typing in the terminal the following:
+
+`docker run --rm fibonacci-term n`
 
 where *n* is the number of digits.
 
