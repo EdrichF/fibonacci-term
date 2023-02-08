@@ -48,5 +48,9 @@ def fibonacci_sequence_digit_index(n):
 
 
 if __name__ == "__main__":
-    check_input(sys.argv[1])
+    '''Chech in an argument is given'''
+    if len(sys.argv) > 1:
+        check_input(sys.argv[1])
+    else:
+        print("Please enter a Postive Interger")
    
